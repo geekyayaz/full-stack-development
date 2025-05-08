@@ -30,6 +30,6 @@ Welcome to my **Full Stack Development** journey! This repository is dedicated t
 Feel free to fork, contribute, or follow along with my journey!
 
 ## 💬 Let's Connect:
-- **Twitter**: [Your Twitter Handle]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Blog**: [Your Blog URL]
+- **Twitter**: https://x.com/codingwithAZ
+- **LinkedIn**:
+- **Blog**: 
