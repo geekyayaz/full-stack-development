@@ -1,0 +1,75 @@
+body{
+  font-family:"Segoe UI";
+  background: #f4f6f8;
+    margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+.container{
+  max-width:600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+.todo-list {
+  list-style: none;
+  padding-left: 0;
+}
+.todo-list > li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: background 0.3s ease;
+}
+  .todo-list > li:hover {
+  background-color: #5d7286;
+  color:white;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+label{
+  font-weight:bold;
+  font-size:18px;
+}
+/* Sub-items */
+.sub-item {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.sub-item-link,
+.sub-item a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: normal;
+  transition: color 0.2s ease;
+}
+a{
+  text-decoration:None;
+}
+a:hover {
+  text-decoration: None;
+  color:red;
+}
+a:visited {
+  text-decoration: None;
+  color:purple;
+}
+a:active{
+  color:brown;
+}
+  a:focus{
+    outline: 2px solid black;
+  }
