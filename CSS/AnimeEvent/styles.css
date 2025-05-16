@@ -1,0 +1,91 @@
+/* Base Styles */
+body {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 70vw;
+  min-height: calc(100vh - 100px);
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fdf6f6, #f0f0ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Horizontal Rule */
+hr {
+  width: 20%;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+
+/* Section Styles */
+section {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    width: 90vw;
+    padding: 30px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
